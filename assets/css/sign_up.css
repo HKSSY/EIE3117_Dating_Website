@@ -1,0 +1,97 @@
+* {
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+body {
+	min-height: 100vh;
+	background-image: linear-gradient(120deg,rgb(96, 255, 96),rgb(0, 152, 212));
+}
+.register {
+	width: 40%;
+	background-color: #ffffff;
+	box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+	margin: 100px auto;
+}
+.register p.error {
+	border: 1px solid;
+	margin: 10px 0px;
+	padding: 5px 5px 5px 5px;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	color: #D8000C;
+	background-color: #FFBABA;
+  }
+.register p.successful {
+	border: 1px solid;
+	margin: 10px 0px;
+	padding: 5px 5px 5px 5px;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	color: #4F8A10;
+	background-color: #DFF2BF;
+}
+.register h1 {
+	text-align: center;
+	color: #5b6574;
+	font-size: 24px;
+	padding: 20px 0 20px 0;
+	border-bottom: 1px solid #dee0e4;
+}
+.register form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 20px;
+}
+.register form label {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 10%;
+	min-width: 10%;
+	height: 50px;
+	background-color: #3274d6;
+	color: #ffffff;
+}
+.register form input[type="password"], .register form input[type="text"], .register form input[type="email"], .register form input[type="date"] {
+	width: 87%;
+	height: 50px;
+	border: 1px solid #dee0e4;
+	margin-bottom: 20px;
+	padding: 0 15px;
+}
+.register form select {
+	width: 87%;
+	height: 50px;
+	border: 1px solid #dee0e4;
+	background-color: #ffffff;
+	margin-bottom: 20px;
+	padding: 0 15px;
+}
+.register form textarea {
+    padding: 10px;
+	width: 97%;
+    line-height: 1.5;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+.register form input[type="submit"] {
+	width: 100%;
+	padding: 15px;
+	margin-top: 20px;
+	background-color: #3274d6;
+	border: 0;
+	cursor: pointer;
+	font-weight: bold;
+	color: #ffffff;
+	transition: background-color 0.2s;
+}
+.register form input[type="submit"]:hover {
+  background-color: #2868c7;
+	transition: background-color 0.2s;
+}
