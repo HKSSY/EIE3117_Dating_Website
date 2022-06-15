@@ -1,15 +1,14 @@
 <?php
 include('assets/php/config.php');
-// We need to use sessions, so you should always start sessions using the below code.
 session_start();
-// If the user is not logged in redirect to the login page...
+// If the user is not logged in redirect to the login page
 if (!isset($_SESSION['loggedin'])) {
 	header('Location: index.php');
 	exit;
 }
 //Connect to database
 include('assets/php/database_connect.php');
-// We don't have the password or email info stored in sessions so instead we can get the results from the database.
+// Using user id to get the user details from database
 $stmt = $con->prepare('SELECT nickname, password, email, dob, gender, self_description FROM accounts WHERE id = ?');
 // In this case we can use the account ID to get the account info.
 $stmt->bind_param('i', $_SESSION['id']);
