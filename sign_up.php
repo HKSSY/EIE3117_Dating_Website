@@ -1,6 +1,7 @@
 <?php
 include('assets/php/config.php');
 session_start();
+// If token not found, just gen a token
 if (empty($_SESSION['token'])) {
     $_SESSION['token'] = bin2hex(random_bytes(32));
 }
