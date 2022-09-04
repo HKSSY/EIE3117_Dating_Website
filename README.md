@@ -8,16 +8,16 @@ The detailed page of the website will be shown as a table below:
 <table>
     <thead>
         <tr>
-            <th>Layer 1</th>
-            <th>Layer 2</th>
-            <th>Layer 3</th>
+            <th>Category</th>
+            <th>Related page</th>
+            <th>Function</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td rowspan=4>L1 Name</td>
-            <td rowspan=2>L2 Name A</td>
-            <td>L3 Name A</td>
+            <td rowspan=4>User Registration, Login and Logout</td>
+            <td rowspan=3>sign_up.php</td>
+            <td>Registrar an account of the system.<br>Common information: login id, nick name, email, password, birthday, gender, and description.</td>
         </tr>
         <tr>
             <td>L3 Name B</td>
