@@ -16,14 +16,14 @@ The detailed page of the website will be shown as a table below:
     <tbody>
         <tr>
             <td rowspan=4>User Registration, Login and Logout</td>
-            <td rowspan=3>sign_up.php</td>
+            <td rowspan=2>sign_up.php</td>
             <td>Registrar an account of the system.<br>Common information: login id, nick name, email, password, birthday, gender, and description.</td>
         </tr>
         <tr>
-            <td>L3 Name B</td>
+            <td>index.php</td>
         </tr>
         <tr>
-            <td rowspan=2>L2 Name B</td>
+            <td rowspan=2>Use id or email and password to login.</td>
             <td>L3 Name C</td>
         </tr>
         <tr>
