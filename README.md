@@ -16,7 +16,7 @@ The detailed page of the website will be shown as a table below:
     <tbody>
         <tr>
             <td rowspan=4>User Registration, Login and Logout</td>
-            <td rowspan=2>sign_up.php</td>
+            <td>sign_up.php</td>
             <td>Registrar an account of the system.<br>Common information: login id, nick name, email, password, birthday, gender, and description.</td>
         </tr>
         <tr>
