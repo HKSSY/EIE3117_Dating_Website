@@ -2,7 +2,7 @@
 
 This is a PolyU EIE3117 project to design a security dating website which is for making friends. Users register and visit the dating website to find suitable friends and chat with new friends.
 
-## Designed page
+## Designed pages
 
 The detailed page of the website will be shown as a table below:
 <table>
