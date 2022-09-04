@@ -32,7 +32,7 @@ The detailed page of the website will be shown as a table below:
         <tr>
             <td rowspan=4>Core function</td>
             <td>home.php</td>
-            <td>This is the home page, and the user can:<br><ul><li>View the messages</li><br><li>List all users</li></ul></td>
+            <td>This is the home page, and the user can:<ul><li>View the messages</li><li>List all users</li></ul></td>
         </tr>
         <tr>
             <td>user_list.php</td>
