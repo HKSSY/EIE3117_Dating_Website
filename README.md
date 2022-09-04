@@ -17,11 +17,11 @@ The detailed page of the website will be shown as a table below:
         <tr>
             <td rowspan=3>User Registration, Login and Logout</td>
             <td>sign_up.php</td>
-            <td><ul><li>Registrar an account of the system.</li><li>Common information: login id, nick name, email, password, birthday, gender, and description</li></ul></td>
+            <td><ul><li>Registrar an account of the system</li><li>Common information: login id, nick name, email, password, birthday, gender, and description</li></ul></td>
         </tr>
         <tr>
             <td>index.php</td>
-            <td><ul><li>Use id or email and password to login.</li><li>Remember login status using cookie</li></ul></td>
+            <td><ul><li>Use id or email and password to login</li><li>Remember login status using cookie</li></ul></td>
         </tr>
         <tr>
             <td>logout.php</td>
