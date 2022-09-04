@@ -47,7 +47,7 @@ The detailed page of the website will be shown as a table below:
             <td>Receive and send the message to the user's friends</td>
         </tr>
     </tbody>
-        <tbody>
+    <tbody>
         <tr>
             <td rowspan=4>User profile</td>
             <td>profile.php</td>
