@@ -15,19 +15,17 @@ The detailed page of the website will be shown as a table below:
     </thead>
     <tbody>
         <tr>
-            <td rowspan=4>User Registration, Login and Logout</td>
+            <td rowspan=3>User Registration, Login and Logout</td>
             <td>sign_up.php</td>
             <td>Registrar an account of the system.<br>Common information: login id, nick name, email, password, birthday, gender, and description.</td>
         </tr>
         <tr>
             <td>index.php</td>
+            <td>Use id or email and password to login.<br>Remember login status using cookie.</td>
         </tr>
         <tr>
-            <td rowspan=2>Use id or email and password to login.</td>
-            <td>L3 Name C</td>
-        </tr>
-        <tr>
-            <td>L3 Name D</td>
+            <td>logout.php</td>
+            <td>User logout and delete cookie (if available)</td>
         </tr>
     </tbody>
 </table>
