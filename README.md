@@ -17,15 +17,34 @@ The detailed page of the website will be shown as a table below:
         <tr>
             <td rowspan=3>User Registration, Login and Logout</td>
             <td>sign_up.php</td>
-            <td>Registrar an account of the system.<br>Common information: login id, nick name, email, password, birthday, gender, and description.</td>
+            <td>Registrar an account of the system.<br>Common information: login id, nick name, email, password, birthday, gender, and description</td>
         </tr>
         <tr>
             <td>index.php</td>
-            <td>Use id or email and password to login.<br>Remember login status using cookie.</td>
+            <td>Use id or email and password to login.<br>Remember login status using cookie</td>
         </tr>
         <tr>
             <td>logout.php</td>
             <td>User logout and delete cookie (if available)</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td rowspan=4>Core function</td>
+            <td>home.php</td>
+            <td>This is the home page, and the user can:<br><ul><li>View the messages</li><br><li>List all users</li></ul></td>
+        </tr>
+        <tr>
+            <td>user_list.php</td>
+            <td>Display all the users on the website</td>
+        </tr>
+        <tr>
+            <td>view_profile.php</td>
+            <td>View other user’s profile</td>
+        </tr>
+        <tr>
+            <td>message.php</td>
+            <td>Receive and send the message to the user's friends</td>
         </tr>
     </tbody>
 </table>
