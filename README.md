@@ -47,5 +47,24 @@ The detailed page of the website will be shown as a table below:
             <td>Receive and send the message to the user's friends</td>
         </tr>
     </tbody>
+        <tbody>
+        <tr>
+            <td rowspan=4>User profile</td>
+            <td>profile.php</td>
+            <td>User can view user profile</td>
+        </tr>
+        <tr>
+            <td>change_password.php</td>
+            <td>User can change user password</td>
+        </tr>
+        <tr>
+            <td>upload_profile_image.php</td>
+            <td>Users can upload user profile images</td>
+        </tr>
+        <tr>
+            <td>update_description.php</td>
+            <td>User can update user description</td>
+        </tr>
+    </tbody>
 </table>
 
